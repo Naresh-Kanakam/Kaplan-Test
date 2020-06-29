@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import App from './App';
 
-test('renders component', () => {
+test('renders the component', () => {
   const RenderedFile = render(<App />);
   expect(RenderedFile).not.toBe(null);
 });
